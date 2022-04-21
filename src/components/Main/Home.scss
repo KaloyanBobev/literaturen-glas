@@ -1,0 +1,47 @@
+@import "../../globalStylesVariebles.scss";
+.container {
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    .main-container {
+        width: 100%;
+    }
+    .side-nav {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        display: inline-block;
+    }
+    .side-nav {
+        margin-left: 0 10%;
+    }
+}
+
+#home {
+    font-size: 1.1rem;
+
+    h1,
+    h2 {
+        font-size: 1.5rem;
+        color: darken($background-color, 25%);
+        padding: 2%;
+    }
+
+    div {
+        margin-left: 2%;
+        padding-top: 2%;
+        font-size: 1.4rem;
+        a {
+            margin-left: 2%;
+            text-decoration: none;
+            color: $shadow;
+            &:hover {
+                text-shadow: 1px 1px 1px $shadow;
+            }
+        }
+    }
+}

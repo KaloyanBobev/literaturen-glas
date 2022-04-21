@@ -1,0 +1,33 @@
+@import "../../globalStylesVariebles.scss";
+
+.newsparers {
+    font-style: italic;
+
+    margin: 0 10%;
+    button {
+        padding: 0.4rem;
+        margin: 1% 3%;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        font-style: italic;
+        border-radius: 1rem 1rem;
+        border: 2px solid black;
+        outline: none;
+        background-color: $background-color;
+        &:hover {
+            outline: none;
+            box-shadow: 1px 1px 10px $background-color;
+        }
+    }
+
+    article {
+        display: flex;
+        margin: 2%;
+        border-bottom: 5px solid black;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

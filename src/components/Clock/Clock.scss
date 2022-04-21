@@ -1,0 +1,15 @@
+@import "../../globalStylesVariebles.scss";
+
+@font-face {
+    font-family: "digital clock";
+    src: url("../../data/alarm\ clock.ttf");
+}
+
+.clock {
+    margin: 10% 0;
+    font-size: 2.5rem;
+    font-family: "digital clock";
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 3px 6px $background-color;
+}

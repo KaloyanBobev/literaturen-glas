@@ -1,0 +1,22 @@
+@import "../../globalStylesVariebles.scss";
+
+#second-article {
+    font-size: 1.1rem;
+    h1,
+    h2 {
+        color: darken($background-color, 25%);
+        padding: 2%;
+    }
+    div {
+        padding-top: 2%;
+        font-size: 1.4rem;
+    }
+    a {
+        text-decoration: none;
+        color: $shadow;
+        font-size: 1.4rem;
+        &:hover {
+            text-shadow: 1px 1px 1px $shadow;
+        }
+    }
+}

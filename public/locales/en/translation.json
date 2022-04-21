@@ -1,0 +1,53 @@
+{
+    "header": {
+        "name": "Literary voice",
+        "home": "Home",
+        "publishedEditions": "Printing press",
+        "newspapers": "Newspapaers",
+        "books": "Books and poetry",
+        "photoGallery": "Photo gallery",
+        "forUs": "About us",
+        "contacts": "Contacts"
+    },
+    "read": {
+        "readLess": "Read less ▲",
+        "readMore": "Read more ▼"
+    },
+    "booksTrans": {
+        "header": "List of books",
+        "sort": "Sort by author name:",
+        "author": "Author",
+        "name": "Title",
+        "style": "Style",
+        "issueDate": "Date of issue"
+    },
+    "contact": {
+        "center": "COMMUNITY CENTER „DASKAL PETAR IVANOV - 1988”",
+        "address": "Address: Stara Zagora, 4 Hristo Botev",
+        "phoneNumber": "home phone:+359 42 649110",
+        "mobile": "mobile phone:+359 888 790135"
+    },
+    "footerPage": {
+        "1": "All rights reserved. CopyRight © year: 2015-"
+    },
+    "messagePage": {
+        "results": "AWARDS OF THE EIGHTH NIKOLAI LILIEV COMPETITION 2021 ",
+        "place": "FIRST PRIZE - NOT AWARDED  "
+    },
+    "newspapersPage": {
+        "newest": "Show newest",
+        "oldest": "Show oldest",
+        "read": "Read",
+        "download": "Download"
+    },
+    "booksPage": {
+        "header": "All photos",
+        "newspapersPhoto": "Books and newspapers",
+        "photos": "Events",
+        "childrenWorkshops": "Children workshops"
+    },
+    "sidenav": {
+        "header": "Weather forecast",
+        "enterTown": "Enter town"
+    }
+}

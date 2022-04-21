@@ -1,0 +1,86 @@
+@import "../../globalStylesVariebles.scss";
+
+.side-nav {
+    width: 20rem;
+    height: 40rem;
+    margin: 3% 0;
+    border: 5px solid black;
+    border-radius: 1rem 1rem;
+    text-align: center;
+    background-color: $footer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+    &.Clear {
+        background-image: url("../../images/sunny.jpg");
+    }
+
+    &.Clouds {
+        background-image: url("../../images/clouds.jpg");
+    }
+
+    &.Fog {
+        background-image: url("../../images/fog.jpg");
+    }
+
+    &.Rain {
+        background-image: url("../../images/rain.png");
+    }
+
+    &.Snow {
+        background-image: url("../../images/snow.jpg");
+    }
+
+    h4 {
+        margin-top: 15%;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .date {
+        font-size: 1.2rem;
+        font-weight: 900;
+        font-style: oblique;
+        text-shadow: 2px 2px $background-color;
+    }
+    .search-bar {
+        margin: 5% 0;
+        border: none;
+        outline: none;
+        font-size: 1.1rem;
+        text-indent: 0%;
+        text-align: center;
+        background-color: $background-color;
+        border-radius: 0 0 1rem 1rem;
+        box-shadow: 0 5px black;
+    }
+
+    .location-box {
+        margin: 5% 0;
+        font-weight: bolder;
+
+        .location {
+            font-size: 1.5rem;
+        }
+    }
+
+    .weather-box {
+        font-weight: 700;
+        font-size: 1.6rem;
+        margin: 5% 0;
+
+        .temp {
+            width: 70%;
+            position: relative;
+            display: inline-block;
+            margin: 5% auto;
+            font-size: 3rem;
+            font-weight: bolder;
+            background-color: darken(white, 10%);
+            border-radius: 1rem;
+            padding: 1rem 1.5rem;
+            text-shadow: 3px 6px $background-color;
+            box-shadow: 3px 6px $background-color;
+        }
+    }
+}

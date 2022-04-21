@@ -1,0 +1,26 @@
+@import "../../globalStylesVariebles.scss";
+
+#contacts {
+    padding: 1% 5%;
+
+    div,
+    h2 {
+        padding-top: 2%;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    iframe {
+        margin: 5%;
+        width: 40rem;
+        height: 20rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    @media (max-width: 800px) {
+        iframe {
+            width: 20rem;
+            height: 10rem;
+        }
+    }
+}

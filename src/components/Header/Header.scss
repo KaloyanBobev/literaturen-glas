@@ -1,0 +1,80 @@
+@import "../../globalStylesVariebles.scss";
+
+.logo {
+    width: 12rem;
+    color: white;
+    font-family: Caveat, sans-serif;
+    color: $shadow;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: oblique;
+    text-shadow: 2px 3px 3px lightgray;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    color: $shadow;
+    background-color: $background-color;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+
+    #header-container {
+        width: 100%;
+    }
+    #home-link {
+        width: 6rem;
+    }
+
+    #basic-nav-dropdown {
+        width: 13rem;
+    }
+
+    #photo-gallery-link {
+        width: 10rem;
+    }
+
+    #about-link {
+        width: 7rem;
+    }
+
+    #basic-navbar-nav {
+        .language-container {
+            display: flex;
+            justify-content: end;
+            .lng-btn {
+                flex-direction: row;
+                width: 1.5rem;
+                height: auto;
+                border-radius: 5px 5px;
+            }
+
+            @media (min-width: 1000px) {
+                .lng-btn {
+                    margin: 0 5%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .lng-btn {
+        margin-right: 3%;
+    }
+}
+.drop-down-menu > div {
+    background-color: $background-color;
+    & > a:hover {
+        background-color: darken($background-color, 20%);
+    }
+}
+
+img {
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 5%;
+}
