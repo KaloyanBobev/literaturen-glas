@@ -11,8 +11,8 @@ class LegacyComponentClass extends React.Component {
 
         return (
             <div id="message">
-                <h2>{t('messagePage.results')}</h2>
-                <h2>{t('messagePage.place')}</h2>
+                <h2 className='bold'>{t('messagePage.competition')}</h2>
+                <h2 className='bold'>{t('messagePage.ceremony')}</h2>
                 {this.props.isTextVisible
                     ? <Message isVisible={this.props.isTextVisible} />
                     : null}
