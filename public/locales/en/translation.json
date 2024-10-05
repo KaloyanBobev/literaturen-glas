@@ -31,8 +31,12 @@
         "1": "All rights reserved. CopyRight © year: 2015-"
     },
     "messagePage": {
-        "competition": "The submission of poetry works for the XI ",
-        "ceremony": "National Competition \"Academician Nikolai Liliev\" has started "
+        "competition": "On the occasion of the 30th anniversary of the newspaper Literaturen Glas",
+        "ceremony": "Community Center 'Daskal Petar Ivanov-1988' – Stara Zagora "
+    },
+    "competitionPage": {
+        "competition": "Eleventh National Poetry Contest",
+        "ceremony": "Academician NIKOLAY LILIEV - 2024 - STARA ZAGORA RESULTS "
     },
     "newspapersPage": {
         "newest": "Show newest",
