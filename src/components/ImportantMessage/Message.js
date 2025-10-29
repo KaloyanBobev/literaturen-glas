@@ -4,7 +4,7 @@ function Message(isVisible) {
   return (
     <>
       <span className={isVisible}>
-        <pre>{`
+        <pre id="message-text">{`
 
 
 
